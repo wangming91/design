@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab1a5de8-32ea-4e0a-ab4b-5ecbc56617d1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/read.md" afterDir="false" />
-    </list>
+    <list default="true" id="ab1a5de8-32ea-4e0a-ab4b-5ecbc56617d1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,29 +30,6 @@
               <folding>
                 <element signature="e#1559#1560#0" expanded="true" />
                 <element signature="e#1606#1607#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CourseActualBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/builder/CourseActualBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding>
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,12 +69,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="read.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/builder/read.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="452">
                 <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="read.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/read.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="373">
+                <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -193,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/JavaCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/PythonCourseFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/read.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/builder/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/builder/CourseBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/builder/CourseActualBuilder.java" />
@@ -202,6 +186,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/builder/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/builder/read.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/read.md" />
       </list>
     </option>
   </component>
@@ -320,6 +305,18 @@
               <item name="wangming" type="462c0819:PsiDirectoryNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
               <item name="creational" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wangming" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="creational" type="462c0819:PsiDirectoryNode" />
+              <item name="abstractFactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="design" type="b2602c69:ProjectViewProjectNode" />
@@ -495,12 +492,12 @@
       <workItem from="1546651311301" duration="3487000" />
       <workItem from="1546655595168" duration="9725000" />
       <workItem from="1546751150905" duration="4193000" />
-      <workItem from="1546759975587" duration="3623000" />
+      <workItem from="1546759975587" duration="3887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21028000" />
+    <option name="totallyTimeSpent" value="21292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -882,16 +879,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/read.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="602">
-            <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/builder/CourseActualBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -1025,6 +1012,16 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="452">
             <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wangming/pattern/creational/abstractFactory/read.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="373">
+            <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
