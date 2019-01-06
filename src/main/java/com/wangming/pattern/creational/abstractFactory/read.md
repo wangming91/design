@@ -23,4 +23,4 @@
 
 ##源码阅读
 - java.sql.Connection类就相当于产品族
-- mybatis中的SQLSessionFactory接口
+- mybatis中的SQLSessionFactory接口 
