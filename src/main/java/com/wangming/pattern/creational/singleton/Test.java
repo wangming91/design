@@ -8,8 +8,6 @@ package com.wangming.pattern.creational.singleton;
 
 public class Test {
     public static void main(String[] args) {
-//        LazySingleton lazySingleton = LazySingleton.getInstance();
-
         Thread t1 = new Thread(new T());
         Thread t2 = new Thread(new T());
         t1.start();
@@ -22,7 +20,8 @@ public class Test {
 class T implements Runnable {
     @Override
     public void run() {
-        LazySingleton lazySingleton = LazySingleton.getInstance();
-        System.out.println(Thread.currentThread().getName() + " " + lazySingleton);
+//        LazySingleton instance = LazySingleton.getInstance();
+        LazyDoubleCheckSingleton instance=LazyDoubleCheckSingleton.getInstance();
+        System.out.println(Thread.currentThread().getName() + " " + instance);
     }
 }
