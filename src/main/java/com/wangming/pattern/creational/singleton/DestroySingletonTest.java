@@ -17,10 +17,14 @@ public class DestroySingletonTest {
     }
 
     private static void serializeDestroyMethod() throws IOException, ClassNotFoundException {
-        HungrySingleton hungrySingleton=null;
-        HungrySingleton hungrySingleton_new=null;
+//        HungrySingleton hungrySingleton=null;
+//        HungrySingleton hungrySingleton_new=null;
 
-        hungrySingleton=HungrySingleton.getInstance();
+        StaticInnerClassSingleton hungrySingleton=null;
+        StaticInnerClassSingleton hungrySingleton_new=null;
+
+//        hungrySingleton=HungrySingleton.getInstance();
+        hungrySingleton=StaticInnerClassSingleton.getInstance();
 
         ByteArrayOutputStream bos=new ByteArrayOutputStream();
         ObjectOutputStream oos=new ObjectOutputStream(bos);
@@ -28,7 +32,8 @@ public class DestroySingletonTest {
 
         ByteArrayInputStream bis=new ByteArrayInputStream(bos.toByteArray());
         ObjectInputStream ois=new ObjectInputStream(bis);
-        hungrySingleton_new= (HungrySingleton) ois.readObject();
+//        hungrySingleton_new= (HungrySingleton) ois.readObject();
+        hungrySingleton_new= (StaticInnerClassSingleton) ois.readObject();
 
         System.out.println(hungrySingleton==hungrySingleton_new);
     }

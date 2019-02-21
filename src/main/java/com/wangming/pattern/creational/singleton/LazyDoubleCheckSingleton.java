@@ -1,11 +1,13 @@
 package com.wangming.pattern.creational.singleton;
 
+import java.io.Serializable;
+
 /**
  * @Author: ming.wang
  * @Date: 2019/2/20 14:45
  * @Description:
  */
-public class LazyDoubleCheckSingleton {
+public class LazyDoubleCheckSingleton implements Serializable {
 
     private volatile static LazyDoubleCheckSingleton instance=null;
 
@@ -28,5 +30,9 @@ public class LazyDoubleCheckSingleton {
         }
         return instance;
 
+    }
+    private Object readResolve()
+    {
+        return instance;
     }
 }

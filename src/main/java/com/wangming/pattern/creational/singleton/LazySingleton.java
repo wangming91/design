@@ -1,22 +1,28 @@
 package com.wangming.pattern.creational.singleton;
 
+import java.io.Serializable;
+
 /**
  * @Auther: ming.wang
  * @Date: 2019/1/6 19:25
  * @Description:
  */
 
-public class LazySingleton {
-    private static LazySingleton lazySingleton=null;
+public class LazySingleton implements Serializable {
+    private static LazySingleton instance =null;
     private LazySingleton() {
     }
 
     public synchronized static LazySingleton getInstance(){
-        if (null==lazySingleton)
+        if (null== instance)
         {
-            lazySingleton=new LazySingleton();
+            instance =new LazySingleton();
         }
-        return lazySingleton;
+        return instance;
+    }
+    private Object readResolve()
+    {
+        return instance;
     }
 
 }
