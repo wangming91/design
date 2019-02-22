@@ -24,6 +24,10 @@ public class HungrySingleton implements Serializable {
         return instance;
     }
 
+    /**
+     * 为解决序列化和反序列化对单例的破坏
+     * @return
+     */
     private Object readResolve() {
         return instance;
     }

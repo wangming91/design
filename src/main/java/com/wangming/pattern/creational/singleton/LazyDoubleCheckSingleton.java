@@ -11,7 +11,21 @@ public class LazyDoubleCheckSingleton implements Serializable {
 
     private volatile static LazyDoubleCheckSingleton instance=null;
 
+    private static boolean flag = true;
+
     private LazyDoubleCheckSingleton() {
+        //对于懒加载模式，此种方式是不能抵御反射攻击的
+       /* if (null != instance) {
+            throw new RuntimeException("禁止反射调用默认构造器");
+        }*/
+
+
+        //对于懒加载方式，使用标志位的方式也并不能保证抵御反射攻击，因为利用反射可以修改标志位
+      /*  if (flag) {
+            flag = false;
+        } else {
+            throw new RuntimeException("禁止反射调用默认构造器");
+        }*/
     }
 
     public static LazyDoubleCheckSingleton getInstance(){
