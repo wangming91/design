@@ -9,7 +9,10 @@ import java.io.Serializable;
  */
 public class StaticInnerClassSingleton implements Serializable {
 
-    private StaticInnerClassSingleton() {}
+    private StaticInnerClassSingleton() {
+        if (null!=InnerClass.instance)
+            throw new RuntimeException("禁止反射调用默认构造器");
+    }
 
     private static class InnerClass{
         private static StaticInnerClassSingleton instance=new StaticInnerClassSingleton();

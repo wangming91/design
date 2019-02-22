@@ -11,16 +11,20 @@ public class HungrySingleton implements Serializable {
     private final static HungrySingleton instance;
 
     static {
-        instance=new HungrySingleton();
+        instance = new HungrySingleton();
     }
-    private HungrySingleton() {}
 
-    public static HungrySingleton getInstance(){
+    private HungrySingleton() {
+        if (null != instance) {
+            throw new RuntimeException("禁止反射调用默认构造器");
+        }
+    }
+
+    public static HungrySingleton getInstance() {
         return instance;
     }
 
-    private Object readResolve()
-    {
+    private Object readResolve() {
         return instance;
     }
 }
