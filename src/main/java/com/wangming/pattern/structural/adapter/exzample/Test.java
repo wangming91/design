@@ -11,5 +11,6 @@ public class Test {
         DC5 dc5=new Adapter("220");
 //        DC5 dc5=new Adapter("110");
         dc5.output5V();
+
     }
 }
