@@ -7,6 +7,7 @@ package com.wangming.pattern.creational.abstractFactory;
  */
 
 public class JavaCourseFactory extends CourseFactory {
+
     @Override
     public Video createVideo() {
         return new JavaVideo();
