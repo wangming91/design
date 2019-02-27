@@ -3,7 +3,7 @@ package com.wangming.pattern.structural.composite.exzample;
 /**
  * @Author: ming.wang
  * @Date: 2019/2/26 15:50
- * @Description:
+ * @Description:  组合模式：实现统计一个集团公司的总人数。已知该集团组织架构如下
  */
 public class Test {
     public static void main(String[] args) {
